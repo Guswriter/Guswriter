@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -45,16 +44,21 @@
         p {
             margin-bottom: 15px;
         }
-        .player-card {
+        .track-item {
             background: #2a2a2a;
-            padding: 20px;
+            padding: 15px;
             border-radius: 8px;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             border-left: 4px solid #4da6ff;
+        }
+        .track-title {
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 8px;
         }
         audio {
             width: 100%;
-            margin-top: 10px;
+            margin-top: 5px;
         }
         .support-box {
             background: #252830;
@@ -77,21 +81,6 @@
         }
         .btn:hover {
             background: #0076e6;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #333;
-        }
-        th {
-            background-color: #2a2a2a;
-            color: #4da6ff;
         }
         ul {
             padding-left: 20px;
@@ -118,38 +107,92 @@
     <h2>Profil Singkat</h2>
     <p>Selamat datang di situs resmi <strong>Guswriter</strong>. Halaman ini didedikasikan untuk membagikan karya musik independen yang menggabungkan nuansa <em>shoegaze</em>, <em>alternative rock</em>, <em>dream pop</em>, serta elemen kebudayaan dan narasi tradisional.</p>
 
-    <h2>Rilisan Musik Terbaru</h2>
-    <div class="player-card">
-        <h3>Lagu Utama (Demo / Stream)</h3>
-        <p>Dengarkan langsung karya terbaru dari Guswriter melalui pemutar audio di bawah ini:</p>
-        <audio controls>
-            <source src="URL_FILE_AUDIO_ANDA.mp3" type="audio/mpeg">
-            Browser Anda tidak mendukung pemutar audio.
-        </audio>
+    <h2>Daftar Lagu & Pemutar Audio (17 Track)</h2>
+    
+    <div class="track-item">
+        <div class="track-title">Track 01 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1731ep38XfyxwEycERv8dEHJfpr61Vgc1" type="audio/mpeg"></audio>
     </div>
 
-    <h2>Karya & Diskografi</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Judul Karya</th>
-                <th>Genre / Nuansa</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Track Shoegaze Single 1</td>
-                <td>Shoegaze / Wall of Sound</td>
-                <td>Tersedia untuk Diunduh</td>
-            </tr>
-            <tr>
-                <td>Project Sundanese Heritage</td>
-                <td>Post-Rock / Traditional Instrument</td>
-                <td>Dalam Proses Rilis</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="track-item">
+        <div class="track-title">Track 02 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=11dmaJ4xOhvKeKhccOpaL1PZw0L6CgPjw" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 03 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1S-IYosCRGBG2vtty5kjS-5wMNPah4yAT" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 04 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1lZ8k_yv_mwUVybmirHb4vl_HEGWm2KWe" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 05 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1NoGZ7I-wk7Go38YKqUVX6yElHis-RpqG" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 06 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=12ohPVJw97-kS348buJKEuEzx8TThe8gj" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 07 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=118wfs_VUpEH0lGK22EUW7fy1dqvMRZXj" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 08 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1_rCnoY8yG3vh5bQ8mrUU8IFa4pBSfxLr" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 09 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=14D4I-eos3deD0xND4Ds66L5WJBgW7ykS" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 10 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1Zi0yXfskmzMYnguz433xgVvKW5HtRZTp" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 11 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1inAiR16gEOpG-CwuV8yBHe3sYWvux_G-" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 12 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1uWNGM5h7HcCA6vT3FRXveOQJBhZnzCVu" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 13 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1ZEGr3mgfufyzbDeojjInrDLzn0A1scU7" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 14 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1VY8jh2NHVCDmspH9rpEtaAGIfoLPGCXN" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 15 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=13RKhGB3JEDq8qo_6ffCo_XR-9yyvpOC6" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 16 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1FakBJnIZRrvmYfgh0GG_xQ6wrTbRsyAh" type="audio/mpeg"></audio>
+    </div>
+
+    <div class="track-item">
+        <div class="track-title">Track 17 - Guswriter</div>
+        <audio controls><source src="https://docs.google.com/uc?export=download&id=1TZRgK3SeChm5CMTdUK7N_pqKHKWjTZE9" type="audio/mpeg"></audio>
+    </div>
 
     <h2>Dukung Karya Musik</h2>
     <div class="support-box">
