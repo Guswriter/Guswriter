@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guswriter - Official Website & Music</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background-color: #121212;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 15px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #aaaaaa;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #4da6ff;
+            border-bottom: 1px solid #333;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .player-card {
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border-left: 4px solid #4da6ff;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .support-box {
+            background: #252830;
+            border: 1px dashed #4da6ff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background: #4da6ff;
+            color: #ffffff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #0076e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+        th {
+            background-color: #2a2a2a;
+            color: #4da6ff;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>GUSWRITER</h1>
+    <div class="subtitle">Official Website & Music Portfolio</div>
+
+    <h2>Profil Singkat</h2>
+    <p>Selamat datang di situs resmi <strong>Guswriter</strong>. Halaman ini didedikasikan untuk membagikan karya musik independen yang menggabungkan nuansa <em>shoegaze</em>, <em>alternative rock</em>, <em>dream pop</em>, serta elemen kebudayaan dan narasi tradisional.</p>
+
+    <h2>Rilisan Musik Terbaru</h2>
+    <div class="player-card">
+        <h3>Lagu Utama (Demo / Stream)</h3>
+        <p>Dengarkan langsung karya terbaru dari Guswriter melalui pemutar audio di bawah ini:</p>
+        <audio controls>
+            <source src="URL_FILE_AUDIO_ANDA.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung pemutar audio.
+        </audio>
+    </div>
+
+    <h2>Karya & Diskografi</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Judul Karya</th>
+                <th>Genre / Nuansa</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Track Shoegaze Single 1</td>
+                <td>Shoegaze / Wall of Sound</td>
+                <td>Tersedia untuk Diunduh</td>
+            </tr>
+            <tr>
+                <td>Project Sundanese Heritage</td>
+                <td>Post-Rock / Traditional Instrument</td>
+                <td>Dalam Proses Rilis</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Dukung Karya Musik</h2>
+    <div class="support-box">
+        <h3>Apresiasi & Dukungan Direct-to-Artist</h3>
+        <p>Jika Anda menyukai musik yang disajikan dan ingin mendukung keberlangsungan karya-karya selanjutnya, Anda dapat memberikan apresiasi langsung atau membeli unduhan file audio HQ.</p>
+        <a href="https://saweria.co" class="btn" target="_blank">Traktir Kopi / Donasi Musik</a>
+    </div>
+
+    <h2>Platform & Media Sosial</h2>
+    <p>Ikuti pembaruan karya, video, dan proses kreatif Guswriter di media sosial berikut:</p>
+    <ul>
+        <li><strong>YouTube:</strong> Kanal Resmi Video & Audio Guswriter</li>
+        <li><strong>TikTok:</strong> Konten Pendek & Preview Musik</li>
+        <li><strong>Facebook:</strong> Update Komunitas & Diskusi Karya</li>
+    </ul>
+
+    <div class="footer">
+        <p>&copy; 2026 Guswriter. Seluruh Hak Cipta Dilindungi.</p>
+    </div>
+</div>
+
+</body>
+</html>
